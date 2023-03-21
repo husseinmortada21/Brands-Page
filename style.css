@@ -1,0 +1,43 @@
+ label {
+        font-weight: bold;
+        margin-right: 5px;
+        
+    }
+      
+      select {
+        padding: 5px;
+        font-size: 16px;
+      }
+      
+      #brand-images {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .brand-image {
+        margin: 10px;
+        width: calc(25% - 20px);
+        cursor: pointer;
+        height: 250px;
+      }
+      
+      .brand-image img {
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
+        border: 0;
+    border-radius :10px;
+        box-shadow: -3px 2px 29px -6px rgb(0 0 0 / 68%);
+       -webkit-box-shadow: -3px 2px 29px -6px rgb(0 0 0 / 68%);
+        padding: 20px 20px 20px 20px;
+      }
+      .brand-image:hover {
+        transform: scale(1.1);
+        transition-duration : 0.3s;
+      }
+      
+      @media (max-width: 768px) {
+        .brand-image {
+          width: calc(50% - 20px);
+        }
+      }

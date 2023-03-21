@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+</body>
+</html>
+    </style>
+    <p> <label for="alphabet">Select a letter:</label></p>
+    <select id="alphabet" onchange="filterBrands()">
+      <option value="">All</option>
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="C">C</option>
+      <option value="D">D</option>
+      <option value="E">E</option>
+      <option value="F">F</option>
+      <option value="G">G</option>
+      <option value="H">H</option>
+      <option value="I">I</option>
+      <option value="J">J</option>
+      <option value="K">K</option>
+      <option value="L">L</option>
+      <option value="M">M</option>
+      <option value="N">N</option>
+      <option value="O">O</option>
+      <option value="P">P</option>
+      <option value="Q">Q</option>
+      <option value="R">R</option>
+      <option value="S">S</option>
+      <option value="T">T</option>
+      <option value="U">U</option>
+      <option value="V">V</option>
+      <option value="W">W</option>
+      <option value="X">X</option>
+      <option value="Y">Y</option>
+      <option value="Z">Z</option>
+    </select>
+    <div id="brand-images">
+      <div class="brand-image" data-alphabet="H">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/hp.png" alt="HP">
+      </div>
+      <div class="brand-image" data-alphabet="M">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/mikrotik.png" alt="Mikrotik">
+      </div>
+      <div class="brand-image" data-alphabet="A">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/acer.png" alt="Acer">
+      </div>
+      <div class="brand-image" data-alphabet="J">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/JBL.png" alt="JBL">
+      </div>
+      <div class="brand-image" data-alphabet="A">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/apc.png" alt="APC">
+      </div>
+      <div class="brand-image" data-alphabet="L">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/lg.png" alt="LG">
+      </div>
+      <div class="brand-image" data-alphabet="A">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/asus.png" alt="Asus">
+      </div>
+      <div class="brand-image" data-alphabet="C">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/cisco.png" alt="Cisco">
+      </div>
+      <div class="brand-image" data-alphabet="K">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/kaspersky.png" alt="kaspersky">
+      </div>
+      <div class="brand-image" data-alphabet="D">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/Dell.png" alt="Dell">
+      </div>
+      <div class="brand-image" data-alphabet="E">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/Epson.png" alt="Epson">
+      </div>
+      <div class="brand-image" data-alphabet="F">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/fellowes.png" alt="fellowes">
+      </div>
+      <div class="brand-image" data-alphabet="H">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/hikvisin.png" alt="Hik Vision">
+      </div>
+      <div class="brand-image" data-alphabet="G">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/genius.png" alt="Genius">
+      </div>
+      <div class="brand-image" data-alphabet="B">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/brother.png" alt="Brother">
+      </div>
+      <div class="brand-image" data-alphabet="H">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/Harman_Kardon.png" alt="Harman Kardon">
+      </div>
+      <div class="brand-image" data-alphabet="H">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/hpe.png" alt="HPE">
+      </div>
+      <div class="brand-image" data-alphabet="I">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/intel.png" alt="Intel">
+      </div>
+      <div class="brand-image" data-alphabet="I">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/Intellinet.png" alt="Intellinet">
+      </div>
+      <div class="brand-image" data-alphabet="I">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/ITEC.png" alt="ITEC">
+      </div>
+      <div class="brand-image" data-alphabet="M">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/Manhattan.png" alt="Manhattan">
+      </div>
+      <div class="brand-image" data-alphabet="K">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/Kingslong.png" alt="kingslong">
+      </div>
+      <div class="brand-image" data-alphabet="H">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/Huawei.png" alt="Huwaei">
+      </div>
+      <div class="brand-image" data-alphabet="K">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/kingston.png" alt="kingston">
+      </div>
+      <div class="brand-image" data-alphabet="L">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/lenovo.png" alt="Lenovo">
+      </div>
+      <div class="brand-image" data-alphabet="L">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/logitech.png" alt="Logitech">
+      </div>
+      <div class="brand-image" data-alphabet="M">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/maxell.png" alt="Maxell">
+      </div>
+      <div class="brand-image" data-alphabet="M">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/microsoft.png" alt="Microsoft">
+      </div>
+      <div class="brand-image" data-alphabet="N">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/ngs.png" alt="NGS">
+      </div>
+      <div class="brand-image" data-alphabet="P">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/philips.png" alt="Philips">
+      </div>
+      <div class="brand-image" data-alphabet="P">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/Pioneer.png" alt="Pioneer">
+      </div>
+      <div class="brand-image" data-alphabet="S">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/samsung.png" alt="Samsung">
+      </div>
+      <div class="brand-image" data-alphabet="S">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/sentry_safe.png" alt="Sentry Safe">
+      </div>
+      <div class="brand-image" data-alphabet="S">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/sony.png" alt="Sony">
+      </div>
+      <div class="brand-image" data-alphabet="T">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/Thermal_take.png" alt="Thermal Take">
+      </div>
+      <div class="brand-image" data-alphabet="T">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/Toshiba.png" alt="Toshiba">
+      </div>
+      <div class="brand-image" data-alphabet="T">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/tplink.png" alt="Tp-link">
+      </div>
+      <div class="brand-image" data-alphabet="T">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/transcend.png" alt="transcend">
+      </div>
+      <div class="brand-image" data-alphabet="W">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/western_digital.png" alt="Western Digital">
+      </div>
+      <div class="brand-image" data-alphabet="X">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/xiaomi.png" alt="Xiaomi">
+      </div>
+      <div class="brand-image" data-alphabet="Z">
+        <img src="https://staging.itec.co.ao/images/abt__ut2/banners/all/9/zebra.png" alt="Zebra">
+      </div>
+    </div>
+    
